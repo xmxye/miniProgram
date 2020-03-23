@@ -1,10 +1,11 @@
+// pages/profile/profile.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      list:['我的','你的','他的']
+
   },
 
   /**
@@ -61,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  handleOuterTap(event){
-    console.log(event)
-  },
-  handleInnerTap(event){
-    console.log(event)
-  },  
-  handleItemClick(event){
-    const item = event.currentTarget.dataset.item;
-    const index = event.currentTarget.dataset.index;
-    console.log(item,index)
   }
 })
-
-
-

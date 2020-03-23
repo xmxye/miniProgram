@@ -1,3 +1,12 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world</text>
-<button bindtap="btnClick">点击></button>
+<view class="outer" bind:tap="handleOuterTap" id="outer">外面的
+    <view class="inner" bind:tap="handleInnerTap" id="inner">里面的</view>
+</view>
+
+
+<view class="box">
+   <block wx:for="{{list}}" wx:for-item="people" wx:key="index">
+            <view class="item" bind:tap="handleItemClick" data-item="{{people}}" data-index="{{index}}">{{people}}</view>
+   </block>
+</view>
+

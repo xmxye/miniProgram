@@ -1,10 +1,11 @@
+// pages/cart/cart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      list:['我的','你的','他的']
+
   },
 
   /**
@@ -62,19 +63,23 @@ Page({
   onShareAppMessage: function () {
 
   },
-
-  handleOuterTap(event){
-    console.log(event)
-  },
-  handleInnerTap(event){
-    console.log(event)
-  },  
-  handleItemClick(event){
-    const item = event.currentTarget.dataset.item;
-    const index = event.currentTarget.dataset.index;
-    console.log(item,index)
+  handleBtnClick(){
+    // 1. 调用设置接口，查找scope的值
+    wx.getSetting({
+      success(res){
+        console.log(res)
+      },
+      fail(err){
+        console.log(err)
+      }
+    })
+    // wx.chooseAddress({
+    //   success(res){
+    //     console.log(res)
+    //   },
+    //   fail(err){
+    //     console.log(err)
+    //   }
+    // })
   }
 })
-
-
-
