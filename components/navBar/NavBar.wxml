@@ -1,0 +1,5 @@
+<view class="nav-bar">
+    <view class="item {{currentIndex == index ?'active' :''}}" wx:for="{{titles}}" wx:key="*this">
+      <text bind:tap="handleitemClick" data-index="{{index}}">{{item}}</text>
+    </view>
+</view>

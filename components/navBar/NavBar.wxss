@@ -1,0 +1,14 @@
+.nav-bar{
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background-color: #eee;  */
+}
+.item{
+  flex: 1;
+  text-align: center
+}
+.item.active text{
+  border-bottom:1px solid currentColor;
+  padding:6rpx 10rpx;
+}
