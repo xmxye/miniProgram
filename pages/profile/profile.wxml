@@ -1,3 +1,8 @@
 <!--pages/profile/profile.wxml-->
 <!-- <NavBar/> -->
-<nav-bar titles="{{titles}}" bind:itemChange="itemChange"/>
+<nav-bar titles="{{titles}}" bind:itemChange="itemChange">
+    <view wx:if="{{titles[0].isActive}}">0</view>
+    <view wx:elif="{{titles[1].isActive}}">1</view>
+    <view wx:elif="{{titles[2].isActive}}">2</view>
+    <view wx:else>3</view>
+</nav-bar>

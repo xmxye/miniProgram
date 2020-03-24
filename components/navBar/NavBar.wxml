@@ -3,3 +3,6 @@
       <text bind:tap="handleitemClick" data-index="{{index}}">{{item.title}}</text>
     </view>
 </view>
+<view class="content">
+  <slot></slot>
+</view>
