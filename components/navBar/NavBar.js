@@ -17,7 +17,7 @@ Component({
    * 组件的初始数据
    */
   data: {   
-    currentIndex:0
+   
   },
 
   /**
@@ -25,10 +25,16 @@ Component({
    */
   methods: {
     handleitemClick(e){
-      const currentIndex = e.currentTarget.dataset.index
-      this.setData({
-        currentIndex
+      const {titles} = this.properties;
+      const {index} = e.currentTarget.dataset;
+      titles.forEach((x,i)=>{
+         index==i ? x.isActive=true : x.isActive = false
       })
+      this.setData({
+        titles
+      })
+      // 向父组件传递index
+      this.triggerEvent('itemChange',{index})
     }
   }
 })
