@@ -1,5 +1,5 @@
 <!--pages/home/home.wxml-->
-<view class="outer" bind:tap="handleOuterTap" id="outer">外面的
+<!-- <view class="outer" bind:tap="handleOuterTap" id="outer">外面的
     <view class="inner" bind:tap="handleInnerTap" id="inner">里面的</view>
 </view>
 
@@ -8,5 +8,16 @@
    <block wx:for="{{list}}" wx:for-item="people" wx:key="index">
             <view class="item" bind:tap="handleItemClick" data-item="{{people}}" data-index="{{index}}">{{people}}</view>
    </block>
-</view>
+</view> -->
 
+<!-- 1. 导入搜索框 -->
+<search-input></search-input>
+
+
+<!-- 2. 导入轮播图 -->
+<swiper></swiper>
+
+<!-- 3. 导入分类导航 -->
+
+
+<!-- 4. 导入楼层 -->

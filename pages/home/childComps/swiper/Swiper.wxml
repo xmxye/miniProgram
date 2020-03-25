@@ -1,0 +1,7 @@
+<swiper class="swiper" autoplay indicator-dots indicator-color = "#fff">
+  <swiper-item wx:for="{{images}}" wx:key="*this" class="item">
+    <navigator>
+        <image mode="widthFix" src="{{item.url}}" class="img"></image>
+    </navigator>
+  </swiper-item>
+</swiper>

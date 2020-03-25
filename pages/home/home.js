@@ -63,17 +63,17 @@ Page({
 
   },
 
-  handleOuterTap(event){
-    console.log(event)
-  },
-  handleInnerTap(event){
-    console.log(event)
-  },  
-  handleItemClick(event){
-    const item = event.currentTarget.dataset.item;
-    const index = event.currentTarget.dataset.index;
-    console.log(item,index)
-  }
+  // handleOuterTap(event){
+  //   console.log(event)
+  // },
+  // handleInnerTap(event){
+  //   console.log(event)
+  // },  
+  // handleItemClick(event){
+  //   const item = event.currentTarget.dataset.item;
+  //   const index = event.currentTarget.dataset.index;
+  //   console.log(item,index)
+  // }
 })
 
 

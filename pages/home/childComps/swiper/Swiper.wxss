@@ -1,0 +1,15 @@
+/* 图片的默认大小 500 x 200 */
+
+.swiper{
+    width: 750rpx;
+    height:calc(750rpx * 200 /500);
+
+}
+
+
+.img{
+
+    width:100%;
+    height:calc(100% * 200 /500);
+
+}

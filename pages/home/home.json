@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "search-input":"../../components/searchInput/SearchInput",
+    "swiper":"./childComps/swiper/Swiper",
+    "category-nav":"./childComps/categoryNav/CategoryNav",
+    "floor":"./childComps/floor/Floor"
+  },
+  "navigationBarTitleText": "首页"
 }

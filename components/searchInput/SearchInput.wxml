@@ -1,0 +1,4 @@
+<!--components/searchInput/SearchInput.wxml-->
+<view class="search" bind:tap="handleSearch">
+    <input type="text" value="" class="search-input" placeholder="搜索"/>
+</view>

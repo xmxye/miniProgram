@@ -1,6 +1,12 @@
 /**app.wxss**/
 @import './assets/css/iconfont.wxss';
 
+/* 定义主体颜色 */
+page{
+  --themeColor:#B43C3C;
+  font-size: 28rpx;
+}
+
 .container {
   height: 100%;
   display: flex;
