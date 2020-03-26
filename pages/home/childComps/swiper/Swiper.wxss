@@ -8,8 +8,7 @@
 
 
 .img{
-
-    width:100%;
-    height:calc(100% * 200 /500);
+    width: 750rpx;
+    height:calc(750rpx * 200 /500);
 
 }
