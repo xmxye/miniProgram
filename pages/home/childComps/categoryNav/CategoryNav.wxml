@@ -1,2 +1,3 @@
 <!--pages/home/childComps/categoryNav/CategoryNav.wxml-->
-<text>pages/home/childComps/categoryNav/CategoryNav.wxml</text>
+
+<view class="iconfont icon-icon"></view>

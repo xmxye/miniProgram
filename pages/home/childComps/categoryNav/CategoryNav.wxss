@@ -1,1 +1,3 @@
 /* pages/home/childComps/categoryNav/CategoryNav.wxss */
+
+@import '../../../../assets/css/font/iconfont.wxss';

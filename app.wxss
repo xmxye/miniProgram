@@ -1,5 +1,6 @@
 /**app.wxss**/
 @import './assets/css/iconfont.wxss';
+@import './assets/css/font/iconfont.wxss';
 
 /* 定义主体颜色 */
 page{
@@ -16,3 +17,4 @@ page{
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
